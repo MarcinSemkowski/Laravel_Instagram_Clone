@@ -5,7 +5,7 @@
     </IfModule>
 
     RewriteEngine On
-RewriteBase /Laravel_instagram_clone
+
     # Handle Authorization Header
     RewriteCond %{HTTP:Authorization} .
     RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
