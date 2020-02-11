@@ -13,9 +13,17 @@
               <div class="pr-5"><strong>153</strong>posts</div>
                <div class="pr-5"><strong>23k</strong> followers</div>
                <div class="pr-5"><strong>212</strong> following</div>
-           </div>
+
        </div>
 
+        <div class="pt-4">freeCodeCamp.org</div>
+           <div>We 're global community of millions of people learning to code together.We're an open source,donor-supported,501(c)(3) nonprofit</div>
+           <div><a href="#">www.freecodecamp.org</a> </div>
    </div>
+       <div class="row">
+           <div class="col-4"></div>
+       </div>
+
+
 </div>
 @endsection
