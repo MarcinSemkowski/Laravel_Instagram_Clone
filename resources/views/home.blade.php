@@ -8,7 +8,7 @@
        </div>
 
        <div class="col-9">
-        <div><h1>freeCodeCamp</h1></div>
+        <div><h1>{{$userV->username}}}</h1></div>
            <div class="d-flex">
               <div class="pr-5"><strong>153</strong>posts</div>
                <div class="pr-5"><strong>23k</strong> followers</div>
@@ -16,9 +16,9 @@
 
        </div>
 
-        <div class="pt-4">freeCodeCamp.org</div>
-           <div>We 're global community of millions of people learning to code together.We're an open source,donor-supported,501(c)(3) nonprofit</div>
-           <div><a href="#">www.freecodecamp.org</a> </div>
+        <div class="pt-4">{{$userV->profile->title}}}</div>
+           <div>{{$userV->profile->decription}}}</div>
+           <div><a href="#">{{$userV->profile->url}}}</a> </div>
    </div>
        <div class="row pt-4">
            <div class="col-4">
